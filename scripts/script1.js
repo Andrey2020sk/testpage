@@ -22,10 +22,10 @@ orderCar.addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", function () {
     let layer = document.querySelector('.price-image');
     document.addEventListener('mousemove', (event) => {
-        layer.style.transform = 'translate3d(' + ((event.clientX * 0.9) / 9) + 'px,' + ((event.clientY * 0.9) / 9) + 'px,0px)';
+        layer.style.transform = 'translate3d(' + ((event.clientX * 0.3) / 9) + 'px,' + ((event.clientY * 0.3) / 9) + 'px,0px)';
     });
     const elem = document.querySelector(".main");
     document.addEventListener('scroll', () => {
-        elem.style.backgroundPositionX = '0' + (0.7 * window.scrollY) + 'px';
+        elem.style.backgroundPositionX = '0' + (0.3 * window.scrollY) + 'px';
     })
 });
