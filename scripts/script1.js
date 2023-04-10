@@ -18,7 +18,7 @@ orderCar.addEventListener("click", () => {
     }
     alert("Заявка отправлена");
 });
-
+/*
 document.addEventListener("DOMContentLoaded", function () {
     let layer = document.querySelector('.price-image');
     document.addEventListener('mousemove', (event) => {
@@ -29,3 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
         elem.style.backgroundPositionX = '0' + (0.1 * window.scrollY) + 'px';
     })
 });
+*/
