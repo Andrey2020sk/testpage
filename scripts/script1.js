@@ -26,6 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     const elem = document.querySelector(".main");
     document.addEventListener('scroll', () => {
-        elem.style.backgroundPositionX = '0' + (0.3 * window.scrollY) + 'px';
+        elem.style.backgroundPositionX = '0' + (0.1 * window.scrollY) + 'px';
     })
 });
